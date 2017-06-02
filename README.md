@@ -1,6 +1,6 @@
-# BOOTSTRAP01_Ben_Isa
+# BOOTSTRAP01 Ben Isa
 Challenge BOOTSTRAP pour Mardi 6 Juin.
-
+ 
 ## Répartition des tâches :
 
 Le Header est réalisé par Benoit Laurent et comprend :
