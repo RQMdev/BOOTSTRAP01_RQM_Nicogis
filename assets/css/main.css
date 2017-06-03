@@ -7,26 +7,33 @@ Url: https://github.com/RQMplays/ // https://github.com/Regis-Nicolo/
 
 /* --- TABLE DES MATIERES ---
 01. HEADER
-02. INTRO
-03. NAV BAR
-04. ARTICLES 
-05. PAGINATION
-06. FOOTER
+02. NAV BAR
+03. ARTICLES 
+04. PAGINATION
+05. FOOTER
  */
+
+ body {
+     background: url(../../img/bg.jpg) no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
 
 /*=================== 01. HEADER ==== Benoit Laurent =============*/
 
-
-/*=================== 02. INTRO ===== Benoit Laurent ============*/
-
-
-/*=================== 03. NAV BAR ===== Benoit Laurent =============*/
-
-
-/*================== 04. ARTICLES ===== Régis Nicolo ================*/
+h1 {
+    font-size: 500%;
+    text-align: center;
+}
 
 
-/*================== 05. PAGINATION ===== Régis Nicolo ===============*/
+/*=================== 02. NAV BAR ===== Benoit Laurent =============*/
 
 
-/*================== 06. FOOTER ======== Benoit Laurent =============*/
+/*================== 03. ARTICLES ===== Régis Nicolo ================*/
+
+
+/*================== 04. PAGINATION ===== Régis Nicolo ===============*/
+
+
+/*================== 05. FOOTER ======== Benoit Laurent =============*/
