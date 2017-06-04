@@ -31,6 +31,30 @@ Url: https://github.com/RQMplays/ // https://github.com/Regis-Nicolo/
     font-size: 16pt;
 }
 
+@media screen and (max-width: 1680px){
+    [lang="fr"] {
+    font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    [lang="fr"] {
+    font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 480px){
+    [lang="fr"] {
+    min-width: 320px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    [lang="fr"] {
+    font-size: 10pt;
+    }
+}
+
  body {
      background: url(../../img/bg.jpg) no-repeat;
      background-size: cover;
@@ -189,6 +213,12 @@ body > footer {
     margin: 0 auto;
     width: calc(100% - 4rem);
     max-width: 72rem;
+}
+
+@media screen and (max-width: 980px){
+    body > footer {
+        display: block;
+    }
 }
 
 footer > section {
