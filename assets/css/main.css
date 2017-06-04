@@ -59,7 +59,7 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: "Merriweather", Georgia, Serif;
+    font-family: "Merriweather", Georgia, serif;
     font-size: 1.25rem;
     font-weight: 100;
     line-height: 2.375;
@@ -238,8 +238,7 @@ footer input {
 footer input[type="text"] {
     display: block;
     color: #717981;
-    border-color: #e2e2e2;
-    border: solid 2px;
+    border: solid 2px #e2e2e2;
     outline: 0;
     height: 3rem;
     padding: 0 1rem;
@@ -254,8 +253,7 @@ footer input[type="text"]:focus {
 footer textarea {
     display: block;
     color: #717981;
-    border-color: #e2e2e2;
-    border: solid 2px;
+    border: solid 2px #e2e2e2;
     outline: 0;
     font-family: "Merriweather", Georgia, serif;
     font-weight: 300;
