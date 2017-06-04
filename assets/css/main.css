@@ -59,7 +59,7 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: Georgia, Serif;
+    font-family: "Merriweather", Georgia, Serif;
     font-size: 1.25rem;
     font-weight: 100;
     line-height: 2.375;
@@ -159,7 +159,7 @@ nav ul.icons {
     padding: 0;
 }
 
-ul.icons li {
+nav ul.icons li {
     display: inline-block;
     padding: 0 2rem 0 0;
     vertical-align: middle;
@@ -167,7 +167,7 @@ ul.icons li {
     top: 4px;
 }
 
-ul.icons li a:hover {
+nav ul.icons li a:hover {
     color: #18bfef;
     text-decoration: none;
 
@@ -227,7 +227,7 @@ footer label {
 }
 
 footer input {
-    font-family: Georgia, serif;
+    font-family: "Merriweather", Georgia, serif;
     font-weight: 300;
     font-size: 1rem;
     line-height: 2.375;
@@ -245,6 +245,9 @@ footer input[type="text"] {
     text-decoration: none;
     width: 100%;
 }
+footer input[type="text"]:focus {
+    border-color: #18bfef;
+}
 
 footer textarea {
     display: block;
@@ -252,7 +255,7 @@ footer textarea {
     border-color: #e2e2e2;
     border: solid 2px;
     outline: 0;
-    font-family: Georgia, serif;
+    font-family: "Merriweather", Georgia, serif;
     font-weight: 300;
     font-size: 1rem;
     line-height: 2.375;
@@ -262,9 +265,130 @@ footer textarea {
     width: 100%;
 }
 
+footer textarea:focus {
+    border-color: #18bfef;
+}
+
 form > .actions {
     flex-grow: 0;
     flex-shrink: 1;
     margin: 1.875rem 0 0 1.5rem;
     width: calc(100% -3rem);
+}
+
+footer input[type="submit"] {
+    display: inline-block;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #717981;
+    color: #717981;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 900;
+    line-height: 3rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border: 0;
+}
+
+footer input[type="submit"]:hover {
+    box-shadow: inset 0 0 0 2px #18bfef;
+    color:#18bfef;
+}
+
+footer > section.split {
+    display: flex;
+    flex-direction: column;
+    border-left: solid 2px #e2e2e2;
+    padding: 0;
+}
+
+footer > section.split > section.first {
+    align-items: flex-start;
+    padding: 4rem 4rem 3rem 4rem;
+    border-top: 0;
+}
+
+footer > section.split > section.first > :last-child {
+    margin-top: -0.325rem;
+}
+
+footer > section.split > section {
+    display: flex;
+    align-items: center;
+    padding: 3.15rem 4rem;
+    border-top: solid 2px #e2e2e2;
+}
+
+footer > section.split > section > :first-child {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 6rem;
+}
+
+footer > section.split > section > :last-child {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+footer > section.split > section > * {
+    margin-bottom: 0;
+}
+
+footer h3 {
+    color: #717981;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing:0.075em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+    border: 0;
+}
+
+footer p {
+    display: block;
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 2.375;
+    margin: 0 0 2rem 0;
+}
+
+footer a {
+    color: #717981;
+    border-bottom-color: rgba(113, 121, 129, 0.5);
+    border-bottom: dotted 1px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border-bottom-color: transparent;
+    color: #18bfef;
+    text-decoration: none;
+}
+
+footer ul {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    border: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0 0 2rem 0;
+    vertical-align: middle;
+}
+
+footer li a {
+    display: inline-block;
 }
