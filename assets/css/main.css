@@ -200,6 +200,24 @@ nav ul.icons li a:hover {
 }
 
 /*================== 05. ARTICLES ===== Régis Nicolo ================*/
+.container {
+    background-color: #FFF;
+}
+.date {
+    text-align: center;
+}
+
+.titre {
+    text-align: center;
+}
+
+.article-img {
+    text-align: center;
+}
+
+.full-story {
+    border : 2px solid black;
+}
 
 
 /*================== 06. PAGINATION ===== Régis Nicolo ===============*/
